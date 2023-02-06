@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 58, 158);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+  .footer p{
+    margin-top: 2px;
+    padding-top: 0;
+  }
+  .para{
+    margin-top: 100px;
+    margin-left: 400px;
+  }
+  .btn-logout{
+    width: 130px;
+height: 40px;
+color: #fff;
+border-radius: 5px;
+padding: 10px 25px;
+font-weight: 500;
+
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+outline: none;
+ overflow: hidden;
+ 
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+ }
+ .text-front{
+  margin-top: 150px;
+  margin-left: 400px;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+.smart-account{
+  margin-left: 400px;
+  margin-top: 100px;
+
+}
+.smart-account h3{
+  font-weight:600;
+  font-size: 25px;
+}
+.smart-account p{
+  font-size: 20px;
+}
+.btn-logout, .btn-mint, .btn-ipfs, .btn-gallery, .btn-home{
+   width: 170px;
+height: 50px;
+color: #fff;
+border-radius: 20px;
+padding: 10px 25px;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.3s ease;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+outline: none;
+overflow: hidden;
+margin-left: 200px;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+.btn-logout{
+  margin-top: 40px;
+}
+.btn-mint{
+  margin-top: 40px;
+  margin-left: 50px ;
+}
+.btn-gallery{
+  margin-top: 30px;
+}
+.btn-ipfs{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.btn-home{
+  margin-top: 30px;
+  margin-left: 300px;
+}
+.btn-logout:hover {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-gallery:hover{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-ipfs:hover{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-mint:hover{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-home:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+  @media only screen and (max-width: 600px) {
+    .text-front{
+      margin-top: 180px;
+      margin-left: 40px;
+      font-size: 26px;
+      font-weight: 700;
+    
+    }
+    .smart-account{
+      margin-left: 30px;
+      margin-top: 50px;
+
+    }
+    .smart-account h3{
+      font-weight:600;
+      font-size: 20px;
+    }
+    .smart-account p{
+      font-size: 18px;
+    }
+    .btn-logout, .btn-mint, .btn-ipfs, .btn-gallery, .btn-home{
+       width: 140px;
+  height: 40px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+    overflow: hidden;
+ 
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    }
+    .btn-logout{
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+    .btn-mint{
+      margin-top: 20px;
+      margin-left: 50px ;
+    }
+    .btn-gallery{
+      margin-top: 30px;
+      margin-left: 30px ;
+    }
+    .btn-ipfs{
+      margin-top: 30px;
+      margin-left: 50px;
+    }
+    .btn-home{
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+.btn-logout:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-gallery:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-ipfs:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-mint:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-home:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+  }
+    
